@@ -8,15 +8,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cream: 'hsl(30 50% 98%)',
-        'cream-card': 'hsl(30 40% 99%)',
-        primary: 'hsl(340 65% 55%)',
-        'primary-accent': 'hsl(340 75% 45%)',
-        foreground: 'hsl(350 15% 20%)',
+        'cream-bg': '#FCFAF7',
+        'dark-brown': '#3B2B2E',
+        'text-secondary': '#493639',
+        'text-muted': '#7E676B',
+        'rose-primary': '#D74273',
+        'teal-accent': '#3FA69E',
+        'light-teal': '#CCFBF1',
+        'cyan-bg': '#CFFAFE',
+        'card-bg': '#F6F2EE',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
-        serif: ['Georgia', 'serif'],
+        serif: ['Playfair Display', 'Georgia', 'serif'],
       },
       borderRadius: {
         DEFAULT: '0.75rem',
