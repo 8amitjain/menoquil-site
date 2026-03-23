@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 body {
-  background-color: hsl(30, 50%, 98%);
-  color: hsl(350, 15%, 20%);
+  background-color: #FCFAF7;
+  color: #3B2B2E;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
 }
 
 .text-balance {
@@ -18,15 +26,22 @@ body {
 .marquee {
   overflow: hidden;
   width: 100%;
+  background-color: #3FA69E;
 }
 
 .marquee-content {
   display: flex;
   animation: scroll 30s linear infinite;
+  gap: 4rem;
+  white-space: nowrap;
 }
 
 .marquee-content:hover {
   animation-play-state: paused;
+}
+
+.marquee-item {
+  flex-shrink: 0;
 }
 
 @keyframes scroll {
