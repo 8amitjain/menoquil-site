@@ -36,7 +36,7 @@ export default function Home() {
         <div className="marquee-content py-[10px]">
           {Array.from({ length: 12 }).map((_, i) => (
             <span key={i} className="marquee-item text-white text-[13px] font-semibold tracking-wide px-8">
-              \u{1F381} HOLIDAY SALE \u2014 UP TO $150 OFF
+              🎁 HOLIDAY SALE — UP TO $150 OFF
             </span>
           ))}
         </div>
@@ -53,11 +53,11 @@ export default function Home() {
             <div className="flex-1 max-w-[640px]">
               <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 mb-7">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                <span className="text-white text-[13px] font-medium tracking-wide">Non-Hormonal \u2022 Clinically Studied Ingredients</span>
+                <span className="text-white text-[13px] font-medium tracking-wide">Non-Hormonal • Clinically Studied Ingredients</span>
               </div>
               <h1 className="font-serif text-white text-[44px] md:text-[52px] leading-[1.12] font-bold mb-6">
                 Get Back to Feeling <br className="hidden md:block" />
-                Balanced \u2014 <span className="italic text-teal-accent">Without</span><br />
+                Balanced — <span className="italic text-teal-accent">Without</span><br />
                 <span className="italic text-teal-accent">Hormones.</span>
               </h1>
               <p className="text-white/80 text-[16px] md:text-[17px] leading-relaxed mb-7 max-w-[520px]">
@@ -112,10 +112,10 @@ export default function Home() {
             </span>
           </div>
           <h2 className="font-serif text-dark-brown text-[36px] md:text-[42px] font-bold text-center mb-5 leading-tight">
-            \u201CIs This Basically Hormones?\u201D
+            “Is This Basically Hormones?”
           </h2>
           <p className="text-text-muted text-[16px] md:text-[17px] leading-relaxed text-center max-w-[700px] mx-auto mb-14">
-            No. Menoquil contains zero estrogen, progesterone, or any hormones. It\u2019s a plant-based formula safe for women who can\u2019t or won\u2019t take HRT.
+            No. Menoquil contains zero estrogen, progesterone, or any hormones. It’s a plant-based formula safe for women who can’t or won’t take HRT.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Menoquil Card */}
